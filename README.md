@@ -10,8 +10,6 @@ Our project is a simple platform runner game. The player must help Dr. Alu OpySe
 
 We ran into a few issues. First off, the provided wrapper file didn’t seem to work with our board, so we built a functional one based on our wrapper from Experiment 10. The next issue we ran into was an apparent glitch that draws dots in incorrect locations. The registers holding the coordinates never reach these coordinates (as far as we could determine), yet these dots are still drawn. This can be seen when the Doctor jumps. However, this is not a huge issue as it does not affect the functionality of the game; furthermore it actually adds a bit of “flare” to our rather plain graphics scheme.
 
----------------------------------------------
-
 ## Operating Manual
 *(to be used with a Nexys3 board)*
 - Left Button 	=> 	Jump
