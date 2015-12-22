@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\csundstr\Desktop\Final\Exp10_mealy\RAT_wrapper.ncd
+OUTFILE=C:\Users\csundstr\Desktop\Final\Exp10_mealy\RAT_wrapper.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\csundstr\Desktop\Final\Exp10_mealy
+LICENSE=ISE
+USER_INFO=210778909_1777507066_210600704_321

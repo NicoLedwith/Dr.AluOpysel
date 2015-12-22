@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/nledwith/Desktop/Exp9_30th/Wrap_test_isim_beh.exe" -prj "C:/Users/nledwith/Desktop/Exp9_30th/Wrap_test_beh.prj" "work.Wrap_test" 

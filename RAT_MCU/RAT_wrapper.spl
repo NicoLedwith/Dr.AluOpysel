@@ -1,0 +1,10 @@
+[Inputs]
+RESET
+CLK
+=SWITCHES[7:0]=
+=BUTTONS[3:0]=
+[Outputs]
+=LEDS[7:0]=
+=SEGMENTS[7:0]=
+=DISP_EN[3:0]=
+[BiDir]

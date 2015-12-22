@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Dec 04 12:58:05 2015
+
+drc -z RAT_wrapper.ncd RAT_wrapper.pcf
+
+DRC detected 0 errors and 0 warnings.

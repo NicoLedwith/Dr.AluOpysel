@@ -1,0 +1,58 @@
+#Constraints
+
+NET "CLK" LOC = "V10";
+NET "RESET" LOC = "A8";
+
+Net "BUTTONS[0]" LOC = "B8";
+Net "BUTTONS[1]" LOC = "C9";
+Net "BUTTONS[2]" LOC = "D9";
+Net "BUTTONS[3]" LOC = "C4";
+
+Net "SWITCHES[7]" LOC = "T5";
+Net "SWITCHES[6]" LOC = "V8";
+Net "SWITCHES[5]" LOC = "U8";
+Net "SWITCHES[4]" LOC = "N8";
+Net "SWITCHES[3]" LOC = "M8";
+Net "SWITCHES[2]" LOC = "V9";
+Net "SWITCHES[1]" LOC = "T9";
+Net "SWITCHES[0]" LOC = "T10";
+
+Net "LEDS[0]" LOC = "U16";
+Net "LEDS[1]" LOC = "V16";
+Net "LEDS[2]" LOC = "U15";
+Net "LEDS[3]" LOC = "V15";
+Net "LEDS[4]" LOC = "M11";
+Net "LEDS[5]" LOC = "N11";
+Net "LEDS[6]" LOC = "R11";
+Net "LEDS[7]" LOC = "T11";
+
+Net "SEGMENTS[7]" LOC = "T17";
+Net "SEGMENTS[6]" LOC = "T18";
+Net "SEGMENTS[5]" LOC = "U17";
+Net "SEGMENTS[4]" LOC = "U18";
+Net "SEGMENTS[3]" LOC = "M14";
+Net "SEGMENTS[2]" LOC = "N14";
+Net "SEGMENTS[1]" LOC = "L14";
+Net "SEGMENTS[0]" LOC = "M13";
+
+#Net "SSEG_EN<0>" LOC="P17";
+#Net "SSEG_EN<1>" LOC="P18";
+#Net "SSEG_EN<2>" LOC="N15";
+#Net "SSEG_EN<3>" LOC="N16";
+
+Net "DISP_EN[0]" LOC="P17";
+Net "DISP_EN[1]" LOC="P18";
+Net "DISP_EN[2]" LOC="N15";
+Net "DISP_EN[3]" LOC="N16";
+
+# VGA output signals
+NET "VGA_RGB<0>"  LOC = "U7"  ; 
+NET "VGA_RGB<1>"  LOC = "V7"  ; 
+NET "VGA_RGB<2>"  LOC = "N7"  ; 
+NET "VGA_RGB<3>"  LOC = "P8"  ; 
+NET "VGA_RGB<4>"  LOC = "T6"  ; 
+NET "VGA_RGB<5>"  LOC = "V6"  ; 
+NET "VGA_RGB<6>"  LOC = "R7"  ; 
+NET "VGA_RGB<7>"  LOC = "T7"  ; 
+NET "VGA_VS"  LOC = "P7"  ; 
+NET "VGA_HS"  LOC = "N6"  ;

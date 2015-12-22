@@ -1,0 +1,439 @@
+xst -intstyle ise -ifn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf Straints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+vhdtdtfi -lib work SingleMux.vhd -lib work FlagReg.vhd -lib work subraptor.vhd -lib work StackPointer.vhd -lib work Scratch_ram.vhd -lib work RegisterFile.vhd -lib work prog_rom.vhd -lib work PC.vhd -lib work MUX_4in.vhd -lib work mux.vhd -lib work IMask.vhd -lib work FourRealMux.vhd -lib work FLAGS.vhd -lib work Debounce.vhd -lib work ControlUnitFSM.vhd -lib work AND_GATE.vhd -lib work ALU.vhd -lib work MCU.vhd -lib work Wrapper.vhd -prj Exp8_actual -o RAT_wrapper.spl -module RAT_wrapper -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 RAT_wrapper.spl C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.sym 
+xst -intstyle ise -ifn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf Straints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf Straints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf Straints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf Straints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/nledwith/Desktop/From_Mealy/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf Straints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Straints.ucf -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.xst" -ofn "C:/Users/csundstr/Desktop/Final/Exp10_mealy/RAT_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RAT_wrapper_constraints.ucf -p xc6slx16-csg324-2 RAT_wrapper.ngc RAT_wrapper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o RAT_wrapper_map.ncd RAT_wrapper.ngd RAT_wrapper.pcf 
+par -w -intstyle ise -ol std -mt 2 RAT_wrapper_map.ncd RAT_wrapper.ncd RAT_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RAT_wrapper.twx RAT_wrapper.ncd -o RAT_wrapper.twr RAT_wrapper.pcf -ucf RAT_wrapper_constraints.ucf 
+bitgen -intstyle ise -f RAT_wrapper.ut RAT_wrapper.ncd 

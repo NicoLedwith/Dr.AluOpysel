@@ -1,0 +1,48 @@
+NET "CLK" LOC = B8;
+NET "RST" LOC = B18;
+
+NET "SWITCHES<7>" LOC="R17";
+NET "SWITCHES<6>" LOC="N17";
+NET "SWITCHES<5>" LOC="L13";
+NET "SWITCHES<4>" LOC="L14";
+NET "SWITCHES<3>" LOC="K17";
+NET "SWITCHES<2>" LOC="K18";
+NET "SWITCHES<1>" LOC="H18";
+NET "SWITCHES<0>" LOC="G18";
+
+NET "LEDS[0]" LOC = J14;
+NET "LEDS[1]" LOC = J15;
+NET "LEDS[2]" LOC = K15;
+NET "LEDS[3]" LOC = K14;
+NET "LEDS[4]" LOC = E17;
+NET "LEDS[5]" LOC = P15;
+NET "LEDS[6]" LOC = F4;
+NET "LEDS[7]" LOC = R4;
+
+Net "SEGMENTS<7>" LOC="L18";
+Net "SEGMENTS<6>" LOC="F18";
+Net "SEGMENTS<5>" LOC="D17";
+Net "SEGMENTS<4>" LOC="D16";
+Net "SEGMENTS<3>" LOC="G14";
+Net "SEGMENTS<2>" LOC="J17";
+Net "SEGMENTS<1>" LOC="H14";
+Net "SEGMENTS<0>" LOC="C17";
+
+Net "SSEG_EN<0>" LOC="F15";
+Net "SSEG_EN<1>" LOC="C18";
+Net "SSEG_EN<2>" LOC="H17";
+Net "SSEG_EN<3>" LOC="F17";
+
+
+# VGA output signals
+NET "VGA_RGB<0>"  LOC = "u5"  ; 
+NET "VGA_RGB<1>"  LOC = "u4"  ; 
+NET "VGA_RGB<2>"  LOC = "n8"  ; 
+NET "VGA_RGB<3>"  LOC = "p8"  ; 
+NET "VGA_RGB<4>"  LOC = "p6"  ; 
+NET "VGA_RGB<5>"  LOC = "r9"  ; 
+NET "VGA_RGB<6>"  LOC = "t8"  ; 
+NET "VGA_RGB<7>"  LOC = "r8"  ; 
+NET "VGA_VS"  LOC = "u3"  ; 
+NET "VGA_HS"  LOC = "t4"  ;
+
